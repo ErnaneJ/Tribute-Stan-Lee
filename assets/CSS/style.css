@@ -1,0 +1,166 @@
+*{
+    font-family: arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #d3d3d3;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    width: 990px; 
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+.menu{
+    display: flex;
+    align-items: center;  
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    display:flex;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #353839;
+}
+nav .active a, 
+nav a:hover{
+    background-color:#353839;
+    color: #dcdcdc;
+}
+#imgCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    background-image: url('../imagens/StanLee.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 445px;
+    width: 800px;
+    margin: 20px;
+}
+.image_text {
+    height: inherit;
+    width: inherit;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+.image_text h1{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 30px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding-left:90px;
+    max-width:350px;
+}
+.image_text h2{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 15px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding:0px;
+    max-width:350px;
+    margin-top:30px;
+}
+
+.title{
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.title_text{
+    color: black;
+    font-size:21px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #818181;
+    margin-top:10px;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sobre p{
+    text-align: justify;
+    text-transform: capitalize;
+}
+.content_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.content_text a{
+    display:flex;
+    padding:15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color:#818181;
+    width: 80px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.content_text a:hover{
+    background-color:#353839;
+    color: #dcdcdc;
+}
+.personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.personagens img {
+    width: 100%;
+    height: 50px;
+}
+footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+}
+
